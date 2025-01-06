@@ -5,10 +5,10 @@
         "_component": "gmcq",
         "_classes": "",
         "_layout": "full",
-        "title": "GMCQ",
-        "displayTitle": "GMCQ",
-        "body": "Which of the following options would you consider to be correct?",
-        "instruction": "Choose {{#if _isRadio}}one option{{else}}one or more options{{/if}} then select Submit.",
+        "title": "Întrebare grafică cu răspunsuri multiple",
+        "displayTitle": "Întrebare grafică cu răspunsuri multiple",
+        "body": "Care dintre următoarele opțiuni ați considera că este corectă?",
+        "instruction": "Alegeți {{#if _isRadio}}o opțiune{{else}}una sau mai multe opțiuni{{/if}} apoi selectează Trimite.",
         "ariaQuestion": "",
         "_attempts": 1,
         "_shouldDisplayAttempts": false,
@@ -25,19 +25,19 @@
         "_isRound": false,
         "_items": [
             {
-                "text": "This is option 1.",
+                "text": "Aceasta este opțiunea 1.",
                 "altText": "",
                 "_shouldBeSelected": true,
                 "_isPartlyCorrect": false,
                 "_graphic": {
                     "alt": "",
-                    "attribution": "Copyright © 2019",
+                    "attribution": "",
                     "large": "course/en/images/gqcq-1-large.gif",
                     "small": "course/en/images/gqcq-1-small.gif"
                 }
             },
             {
-                "text": "This is option 2.",
+                "text": "Aceasta este opțiunea 2.",
                 "_shouldBeSelected": false,
                 "_isPartlyCorrect": false,
                 "_graphic": {
@@ -49,42 +49,42 @@
             }
         ],
         "_feedback":{
-            "title": "Feedback title",
-            "altTitle": "Alt feedback text",
-            "correct": "Congratulations, this is the correct feedback.",
+            "title": "Titlul feedbackului",
+            "altTitle": "Text de feedback alternativ",
+            "correct": "Felicitări, acesta este feedback-ul corect.",
             "_incorrect": {
                 "notFinal": "",
-                "final": "Unfortunately this is the incorrect feedback."
+                "final": "Din păcate, acesta este un feedback incorect."
             },
             "_partlyCorrect": {
                 "notFinal": "",
-                "final": "This is the partly correct feedback."
+                "final": "Acesta este feedback-ul parțial corect."
             }
         },
-        "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+        "_comment": "Trebuie să includeți _buttons numai dacă doriți să înlocuiți etichetele butoanelor setate în course.json",
         "_buttons": {
             "_submit": {
-                "buttonText": "Submit",
-                "ariaLabel": "Select here to submit your answer."
+                "buttonText": "Trimite",
+                "ariaLabel": "Selectați aici pentru a trimite răspunsul dvs.."
             },
             "_reset": {
                 "buttonText": "Reset",
                 "ariaLabel": ""
             },
             "_showCorrectAnswer": {
-                "buttonText": "Correct Answer",
+                "buttonText": "Răspuns corect",
                 "ariaLabel": ""
             },
             "_hideCorrectAnswer": {
-                "buttonText": "My Answer",
+                "buttonText": "Răspunsul meu",
                 "ariaLabel": ""
             },
             "_showFeedback": {
-                "buttonText": "Show feedback",
+                "buttonText": "Afișează feedback",
                 "ariaLabel": ""
             },
-            "remainingAttemptsText": "attempts remaining",
-            "remainingAttemptText": "final attempt"
+            "remainingAttemptsText": "încercări rămase",
+            "remainingAttemptText": "încercare finală"
         },
         "_pageLevelProgress": {
             "_isEnabled": true

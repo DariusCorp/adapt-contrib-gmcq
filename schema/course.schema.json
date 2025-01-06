@@ -18,13 +18,13 @@
               "properties": {
                 "_gmcq": {
                   "type": "object",
-                  "title": "GMCQ",
+                  "title": "Întrebare grafică cu răspunsuri multiple",
                   "default": {},
                   "properties": {
                     "ariaRegion": {
                       "type": "string",
-                      "title": "ARIA region",
-                      "default": "Multiple choice question",
+                      "title": "Zonă ARIA",
+                      "default": "Întrebare cu răspunsuri multiple",
                       "_adapt": {
                         "translatable": true
                       }
