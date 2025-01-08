@@ -36,7 +36,7 @@
       "default": "Răspunsul pe care l-ați ales a fost {{{userAnswer}}}",
       "inputType": "Text",
       "validators": [],
-      "help": "Text care va fi anunțat de cititorul de ecran atunci când cursantul selectează butonul "ascunde răspunsul corect" (și elevul alege un singur răspuns)",
+      "help": "Text care va fi anunțat de cititorul de ecran atunci când cursantul selectează butonul 'ascunde răspunsul corect' (și elevul alege un singur răspuns)",
       "translatable": true
     },
     "ariaUserAnswers": {
@@ -45,7 +45,7 @@
       "default": "Răspunsurile pe care le-ați ales au fost {{{userAnswer}}}",
       "inputType": "Text",
       "validators": [],
-      "help": "Text care va fi anunțat de cititorul de ecran atunci când cursantul selectează butonul "ascunde răspunsul corect" (și elevul alege mai multe răspunsuri)",
+      "help": "Text care va fi anunțat de cititorul de ecran atunci când cursantul selectează butonul 'ascunde răspunsul corect' (și elevul alege mai multe răspunsuri)",
       "translatable": true
     }
   },
